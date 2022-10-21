@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+
+ }
+ 
+.twitch-header, .youtube-header, .podcast-header, .blog-header {
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+  font-size: x-large;
+  margin-top: 20px;
+ } 
+ 
+ header{
+  background: linear-gradient(180deg, rgba(138,27,100,1) 0%, rgba(138,27,100,1) 0%, rgba(35,10,62,1) 100%);
+  border-radius: 0px 0px 8% 8%;;
+ }
+
+ body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #EFD4E6;
+  font-family: 'Roboto', sans-serif;;
+  }
+
+.botones-sociales{
+  width: 35%;
+  margin-top: 26px;
+  margin-left: 20px;
+}
+
+.fa-instagram,.fa-tiktok {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.fa-tiktok {
+  margin-left: 10px;
+}
+
+.sociales-logo {
+  display: flex;
+}
+
+.logo-total {
+  display: flex;
+  justify-content: center;
+}
+.logo-header {
+  width: 250px;
+}
+
+.lower-header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.top-text {
+  border-top: 2px #712095 solid;
+  border-bottom: 2px #712095 solid;
+  margin-bottom: 40px;
+  background-color:#E2C0DF;
+  padding: 5px;
+  margin-top: 40px;
+  
+}
+
+.welcome-text{
+  text-align: center;
+  margin: 5% 14%;
+  font-size: xx-large;
+}
+
+.twitch-body {
+  display: flex;
+}
+
+.mira-twitch {
+  width: 50%;
+}
+
+.texto-mira-twitch{
+  text-align: center;
+  margin: 30px;
+  font-size: x-large;
+}
+
+.video-player{
+  margin: 0px 75px;
+}
+
+.playing-video{
+  border-radius: 20px;
+  box-shadow: 7px 8px 8px -1px rgba(0,0,0,0.65);
+  border: 25px black solid;
+
+}
+
+.mejores-momentos, .escuchanos{
+  margin: 60px 50px 30px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.capitulos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-capitulo {
+  background-color: black;
+  width: 240px;
+  height: 325px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 7px 8px 8px -1px rgb(0 0 0 / 65%);
+}
+
+.text-capitulo{
+  color: #ae6ecb;
+  font-size: x-large;
+  font-weight: bold;
+}
+.fa-play-circle{
+  font-size: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  color: white;
+}
+
+
+.reproductor{
+  width: 50%;
+  margin-left: 75px;
+  border-radius: 12px;
+  box-shadow: 7px 8px 8px -1px rgb(0 0 0 / 65%);
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(180deg, rgba(21,9,34,1) 0%, rgba(138,27,99,1) 100%);
+  margin-top: 75px;
+  color: white;
+  font-size: 20px;
+  border-radius:  8% 8% 0px 0px;
+
+}
+
+.footer-left{
+  margin-left: 40px;
+}
+
+.boton-footer{
+  width: 400px;
+  margin-left: -20px;
+}
+
+.contacto {
+  margin-right: 50px;
+}
+
+
+
+
