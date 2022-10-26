@@ -59,7 +59,7 @@ html {
   
   }
   
-  .primer-entrada{
+  .primer-entrada,.segunda-entrada{
     font-size: small;
     background-color: #e1159d29;
     border-radius: 20px;
@@ -67,14 +67,9 @@ html {
     padding: 10px;
   }
 
-  .segunda-entrada{
-    font-size: small;
-    background-color: #e1159d29;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
+  .texto-primer-entrada, .texto-segunda-entrada{
+    font-family: 'Comfortaa', cursive;
   }
-  
     
    footer{
     display: flex;
