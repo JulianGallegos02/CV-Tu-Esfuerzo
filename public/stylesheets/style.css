@@ -16,7 +16,6 @@ header{
   }
 
 .botones-sociales{
-  width: 35%;
   padding-top: 10px;
   margin-left: 10px;
   }
@@ -166,7 +165,7 @@ header{
 
 footer{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding-top: 10px;
   padding-bottom: 15px;
   background: linear-gradient(180deg, rgba(21,9,34,1) 0%, rgba(138,27,99,1) 100%);
@@ -177,7 +176,14 @@ footer{
 }
 
 .footer-left{
-  margin-left: 15px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boton-suscribite{
+  margin-left: 12px;
+  margin-top: -36px;
 }
 
 .boton-footer{
@@ -228,7 +234,6 @@ footer{
     }
   
   .botones-sociales{
-    width: 35%;
     margin-top: 26px;
     margin-left: 20px;
   }
@@ -360,24 +365,31 @@ footer{
   
   footer{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding-top: 40px;
     padding-bottom: 40px;
     background: linear-gradient(180deg, rgba(21,9,34,1) 0%, rgba(138,27,99,1) 100%);
     margin-top: 75px;
     color: white;
     font-size: 20px;
-    border-radius:  8% 8% 0px 0px;
+    border-radius: 8% 8% 0px 0px;
   
   }
   
   .footer-left{
-    margin-left: 40px;
+    margin-left: 15px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
   }
   
   .boton-footer{
     width: 400px;
     margin-left: -20px;
+  }
+
+  .boton-suscribite{
+    margin: -21px 50px;
   }
   
   .contacto {
