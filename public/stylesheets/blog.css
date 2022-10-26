@@ -46,21 +46,22 @@ html {
   
   }
   
-  .lower-header {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5px;
-  
+  .primer-entrada{
+    font-size: small;
+    background-color: #e1159d29;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .segunda-entrada{
+    font-size: small;
+    background-color: #e1159d29;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
   }
   
-  .twitch-header, .youtube-header, .podcast-header, .blog-header {
-    text-decoration: none;
-    color: white;
-    margin: 0px 10px;
-    font-size: small;
-    padding-bottom: 10px;
-  
-   } 
     
    footer{
     display: flex;
@@ -93,6 +94,7 @@ html {
   .contacto {
     margin-right: 15px;
   }  
+
   
   @media (min-width: 769px){
   
@@ -154,10 +156,22 @@ html {
       width: 250px;
     }
     
-    .lower-header {
-      display: flex;
-      justify-content: center;
-      padding-bottom: 40px;
+  
+
+    .primer-entrada{
+      font-size: larger;
+      background-color: #e1159d29;
+      border-radius: 20px;
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .segunda-entrada{
+      font-size: larger;
+      background-color: #e1159d29;
+      border-radius: 20px;
+      margin: 10px;
+      padding: 10px;
     }
        
     footer{
