@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-
  }
  
 
@@ -13,7 +12,7 @@ header{
   box-sizing: border-box;
   margin: 0;
   background-color: #EFD4E6;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Bebas Neue', cursive;
   }
 
 .botones-sociales{
@@ -159,7 +158,8 @@ header{
 
 
 .reproductor{
-  width: 100%;
+  width: 90%;
+  margin-left: 10px;
   border-radius: 12px;
   box-shadow: 7px 8px 8px -1px rgb(0 0 0 / 65%);
 }
@@ -213,6 +213,7 @@ footer{
     margin: 0px 20px;
     font-size: x-large;
     margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
    } 
    
    header{
@@ -224,7 +225,6 @@ footer{
     box-sizing: border-box;
     margin: 0;
     background-color: #EFD4E6;
-    font-family: 'Roboto', sans-serif;;
     }
   
   .botones-sociales{
@@ -282,15 +282,23 @@ footer{
     display: flex;
     flex-wrap: nowrap;
   }
+
+  .twitch-body-left{
+    display: flex;
+    flex-wrap: wrap;
+  }
   
   .mira-twitch {
-    width: 50%;
+    width: 70%;
+    height: 50%;
   }
   
   .texto-mira-twitch{
     text-align: center;
     margin: 30px;
     font-size: x-large;
+    font-family: 'Comfortaa', cursive;
+
   }
   
   .video-player{
@@ -344,7 +352,7 @@ footer{
   
   
   .reproductor{
-    width: 50%;
+    width: 70%;
     margin-left: 75px;
     border-radius: 12px;
     box-shadow: 7px 8px 8px -1px rgb(0 0 0 / 65%);

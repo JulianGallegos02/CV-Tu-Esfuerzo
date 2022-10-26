@@ -1,0 +1,185 @@
+html {
+    scroll-behavior: smooth;
+   }
+   
+  
+  header{
+    background: linear-gradient(180deg, rgba(138,27,100,1) 0%, rgba(138,27,100,1) 0%, rgba(35,10,62,1) 100%);
+    border-radius: 0px 0px 8% 8%;;
+   }
+  
+   body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #EFD4E6;
+    font-family: 'Bebas Neue', cursive;
+    }
+  
+  .botones-sociales{
+    width: 35%;
+    padding-top: 10px;
+    margin-left: 10px;
+    }
+    
+  .fa-instagram,.fa-tiktok {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+    }
+    
+  .fa-tiktok {
+    margin-left: 10px;
+    }
+  
+  .sociales-logo {
+    display: flex;
+  }
+  
+  .logo-total {
+    display: flex;
+    justify-content: center;
+  
+  }
+  .logo-header {
+    width: 150px;
+  
+  }
+  
+  .lower-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+  
+  }
+  
+  .twitch-header, .youtube-header, .podcast-header, .blog-header {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    font-size: small;
+    padding-bottom: 10px;
+  
+   } 
+    
+  footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background: linear-gradient(180deg, rgba(21,9,34,1) 0%, rgba(138,27,99,1) 100%);
+    margin-top: 50px;
+    color: white;
+    font-size: smaller;
+    border-radius: 8% 8% 0px 0px;
+  }
+  
+  .footer-left{
+    margin-left: 15px;
+  }
+  
+  .boton-footer{
+    width: 160px;
+    margin-left: -6px;
+  }
+  
+  .contacto {
+    margin-right: 15px;
+  }  
+  
+  
+  @media (min-width: 769px){
+  
+  
+  }
+  
+  @media (min-width:1200px){
+  
+    html {
+      scroll-behavior: smooth;
+    
+     }
+     
+    .twitch-header, .youtube-header, .podcast-header, .blog-header {
+      text-decoration: none;
+      color: white;
+      margin: 0px 20px;
+      font-size: x-large;
+      margin-top: 20px;
+      font-family: 'Bebas Neue', cursive;
+     } 
+     
+     header{
+      background: linear-gradient(180deg, rgba(138,27,100,1) 0%, rgba(138,27,100,1) 0%, rgba(35,10,62,1) 100%);
+      border-radius: 0px 0px 8% 8%;;
+     }
+    
+     body {
+      box-sizing: border-box;
+      margin: 0;
+      background-color: #EFD4E6;
+      }
+    
+    .botones-sociales{
+      width: 35%;
+      margin-top: 26px;
+      margin-left: 20px;
+    }
+    
+    .fa-instagram,.fa-tiktok {
+      font-size: 40px;
+      text-decoration: none;
+      color: white;
+    
+    }
+    
+    .fa-tiktok {
+      margin-left: 10px;
+    }
+    
+    .sociales-logo {
+      display: flex;
+    }
+    
+    .logo-total {
+      display: flex;
+      justify-content: center;
+    }
+    .logo-header {
+      width: 250px;
+    }
+    
+    .lower-header {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 40px;
+    }
+       
+    footer{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(180deg, rgba(21,9,34,1) 0%, rgba(138,27,99,1) 100%);
+      margin-top: 75px;
+      color: white;
+      font-size: 20px;
+      border-radius:  8% 8% 0px 0px;
+    
+    }
+    
+    .footer-left{
+      margin-left: 40px;
+    }
+    
+    .boton-footer{
+      width: 400px;
+      margin-left: -20px;
+    }
+    
+    .contacto {
+      margin-right: 50px;
+    }  
+  
+  }
+  
