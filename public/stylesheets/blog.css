@@ -7,6 +7,19 @@ html {
     background: linear-gradient(180deg, rgba(138,27,100,1) 0%, rgba(138,27,100,1) 0%, rgba(35,10,62,1) 100%);
     border-radius: 0px 0px 8% 8%;;
    }
+
+   .home-header {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: 'Bebas Neue', cursive;
+   } 
+
+   .lower-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
   
    body {
     box-sizing: border-box;
@@ -108,14 +121,18 @@ html {
     
      }
      
-    .twitch-header, .youtube-header, .podcast-header, .blog-header {
+     .home-header {
       text-decoration: none;
       color: white;
-      margin: 0px 20px;
       font-size: x-large;
-      margin-top: 20px;
       font-family: 'Bebas Neue', cursive;
      } 
+  
+     .lower-header {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 15px;
+    }
      
      header{
       background: linear-gradient(180deg, rgba(138,27,100,1) 0%, rgba(138,27,100,1) 0%, rgba(35,10,62,1) 100%);
@@ -158,20 +175,16 @@ html {
     
   
 
-    .primer-entrada{
-      font-size: larger;
+    .primer-entrada,.segunda-entrada{
+      font-size: medium;
       background-color: #e1159d29;
       border-radius: 20px;
       margin: 10px;
       padding: 10px;
     }
-  
-    .segunda-entrada{
-      font-size: larger;
-      background-color: #e1159d29;
-      border-radius: 20px;
-      margin: 10px;
-      padding: 10px;
+
+    .texto-primer-entrada, .texto-segunda-entrada{
+      font-family: 'Comfortaa', cursive;
     }
        
     footer{
