@@ -7,6 +7,7 @@
     <link href="https://use.typekit.net/nzu0lpj.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
      <link rel='stylesheet' href='/stylesheets/style.css' />
@@ -18,31 +19,43 @@
         <div class="logo">
           <a href="/"><img class="logo-header" src="\images\logo.png" alt="logo"></a>
         </div>
+        <div class="lower-header">
+          <a class="twitch-header" href="#twitch-scroll"> Twitch </a>
+          <a class="youtube-header" href="#youtube-scroll"> Youtube</a>
+          <a class="podcast-header" href="#podcast-scroll"> Podcast</a>
+          <a class="blog-header" href="/blog"> Blog</a>
+        </div>
       </article>
-      <div class="lower-header">
-        <a class="twitch-header" href="#twitch-scroll"> TWITCH </a>
-        <a class="youtube-header" href="#youtube-scroll"> YOUTUBE</a>
-        <a class="podcast-header" href="#podcast-scroll"> PODCAST</a>
-        <a class="blog-header" href="/blog"> BLOG</a>
-      </div>
     </section>
   </header>
 
 
   <body>
-    <article class="top-body">
-      <div class="top-text">
-        <p class="welcome-text">Aprender comunicándonos para avanzar como comunidad. Acompañanos en este recorrido por las leyes laborales y las técnicas de búsqueda de trabajo que nos van a aportar una nueva perspectiva sobre el mercado laboral.</p>
+
+    <article class="top-text-image">
+      <div>
+        <p class="text-new-top">Programa informativo e interactivo vía streaming, en el cual charlaremos todo acerca de buscar trabajo.</p>
+        <button class="button-new-top">Mira nuestro blog</button>
+      </div>
+
+      <div>
+        <img src="/images/top.jpeg" alt="" class="image-top">
       </div>
     </article>
 
+    <article class="top-body">
+      <div class="top-text">
+        <p class="welcome-text">Aprender comunicándonos para avanzar como comunidad. Acompañandonos en este recorrido por las leyes laborales y las técnicas de búsqueda de trabajo que nos van a aportar una nueva perspectiva sobre el mercado laboral.</p>
+      </div>
+    </article>
+
+    <p class="video-title">PRIMERA ENTREVISTA LABORAL </p>
     <article class="twitch-body" id="twitch-scroll">
       <div class="video-player">
-        <iframe class="playing-video" width="560" height="315" src="https://www.youtube.com/embed/IMzZ2bUfRD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
+        <iframe class="playing-video" width="560" height="315" src="https://www.youtube.com/embed/lHwXHHiCQ20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
 
       <article class="twitch-body-left">
-        <img class="mira-twitch" src="\images\Twitch.png" alt="Miralo por Twitch">
-        <p class="texto-mira-twitch">“CV tu esfuerzo” es un programa informativo e interactivo vía streaming en el cual charlaremos todo acerca de buscar trabajo.</p>
+        <a href="https://www.twitch.tv/cvtuesfuerzo"><img class="mira-twitch" src="\images\Twitch.png" alt="Miralo por Twitch"></a>
       </article> 
     </article>
 
@@ -50,18 +63,18 @@
       <p class="mejores-momentos">MEJORES MOMENTOS</p>
 
       <article class="capitulos">
-        <div class="box-capitulo">
-          <i class="far fa-play-circle"></i>
-          <p class="text-capitulo">CAPITULO 1 </p>
+        <div class="box-video">
+        <iframe width="100" height="56" class="capitulo-video" src="https://www.youtube.com/embed/pDJKgi2e-Aw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <p class="text-capitulo">CAPITULO 1 </p>
         </div>
-        <div class="box-capitulo">
-          <i class="far fa-play-circle"></i>
+        <div class="box-video">
+          <iframe width="100" height="56" class="capitulo-video" src="https://www.youtube.com/embed/pDJKgi2e-Aw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
           <p class="text-capitulo">CAPITULO 2 </p>
-        </div>
-        <div class="box-capitulo">
-          <i class="far fa-play-circle"></i>
-          <p class="text-capitulo">CAPITULO 3 </p>
-        </div>
+          </div>
+          <div class="box-video">
+            <iframe width="100" height="56" class="capitulo-video" src="https://www.youtube.com/embed/pDJKgi2e-Aw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            <p class="text-capitulo">CAPITULO 3 </p>
+            </div>
 
       </article>
 
@@ -69,29 +82,31 @@
 
     <article class="podcast-body" id="podcast-scroll">
       <p class="escuchanos"> ESCUCHANOS</p>
-      <iframe  class = "reproductor" width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1517825875&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/cv-tu-esfuerzo" title="cv tu esfuerzo" target="_blank" style="color: #cccccc; text-decoration: none;margin-left: 78px">cv tu esfuerzo</a> · <a href="https://soundcloud.com/cv-tu-esfuerzo/sets/piloto-cv-tu-esfuerzo" title="Piloto CV tu esfuerzo" target="_blank" style="color: #cccccc; text-decoration: none;">Piloto CV tu esfuerzo</a></div>
+      <iframe  class = "reproductor" width="100%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1517825875&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 0px; color: #F9F4FB;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/cv-tu-esfuerzo" title="cv tu esfuerzo" target="_blank" style="color: #cccccc; text-decoration: none;margin-left: 78px">cv tu esfuerzo</a> · <a href="https://soundcloud.com/cv-tu-esfuerzo/sets/piloto-cv-tu-esfuerzo" title="Piloto CV tu esfuerzo" target="_blank" style="color: #cccccc; text-decoration: none;">Piloto CV tu esfuerzo</a></div>
     </article>
 
   </body>
 
   <footer>
-    <article class="footer-left">
-      <article class="sociales-logo">
-        <div class="botones-sociales">
-          <a class="logo-instagram" href="https://www.instagram.com/cv.tuesfuerzo/"><i class="fab fa-instagram"></i></a>
-          <a class="logo-tiktok" href="https://www.tiktok.com/@cvtuesfuerzo"><i class="fab fa-tiktok"></i></a>
-        </div>
-      </article>
-      <article>
-        <p>Newsletter</p>
-        <p class="contacto">CONTACTO</p>
-      </article>
+    <article class="first-footer">
+      <p class="text-footer">¡Sucribite a nuestro Newslatter!</p>
+      <input type="text" placeholder="Tu nombre" class="formulario-footer" >
+      <input type="text" placeholder="Correo Electronico" class="formulario-footer">
     </article>
 
-    <article class="boton-suscribite">
-      <a href=""><img class="boton-footer" src="images\boton-footer.png"></a>
+    <article class="second-footer">
+      <p class="text-footer">Nuestras redes</p>
+      <p class="text-footer tik-tok"><i class="fab fa-tiktok icono-footer" ></i></i>Tik Tok</p>
+      <p class="text-footer"><i class="fab fa-instagram icono-footer"></i></i>Instagram</p>
     </article>
 
+    <article class="third-footer">
+      <p class="text-footer">Contacto</p>
+    </article>
+
+    <article class="logo-footer">
+        <a href="/"><img class="logo-footer-imagen" src="\images\logo.png" alt="logo"></a>
+    </article>
 
   </footer>
 </html>
