@@ -34,6 +34,10 @@ header{
   display: flex;
 }
 
+.logo{
+  width: 30%;
+}
+
 .logo-total {
   display: flex;
   justify-content: center;
@@ -42,15 +46,14 @@ header{
 .logo-header {
   width: 25%;
   padding: 2px;
-  padding-left: 24%;
+  margin-left: 60px;
 
 }
 
 .lower-header {
   display: flex;
   align-items: center;
-  padding-right: 12%;
-  margin-left: -24%;
+  width: 70%;
 
 }
 
@@ -58,7 +61,7 @@ header{
   text-decoration: none;
   color: white;
   margin: 0px 10px;
-  font-size: 8px;
+  font-size: 7px;
  } 
 
  .top-text-image{
@@ -75,8 +78,8 @@ header{
  .button-new-top{
   border: none;
   font-size: 10px;
-  margin-left: 26px;
-  padding: 8px;
+  margin-left: 20%;
+  padding: 6px;
   border-radius: 21px;
   background-color: #2165BF;
   color: white;
@@ -144,14 +147,14 @@ header{
 
 }
 
-.mejores-momentos, .escuchanos,.video-title{
+.mejores-momentos, .escuchanos, .video-title, .blog-title{
   font-size: 9px;
   font-weight: bold;
   margin-left: 19px;
   margin-top: 40px;
 }
 
-.capitulos {
+.capitulos, .blog-posts {
   display: flex;
   justify-content: space-evenly;
 }
@@ -159,7 +162,12 @@ header{
 .capitulo-video{
   border-radius: 14px;
   box-shadow: 7px 8px 8px -1px rgb(0 0 0 / 39%);
+  width: 100px;
+  height: 56px;
+  border-radius: 14px;
 }
+
+
 
 .text-capitulo{
   font-size: 6px;
@@ -175,6 +183,36 @@ header{
   border-radius: 12px;
   box-shadow: 7px 8px 8px -1px rgb(0 0 0 / 65%);
 }
+
+.image-blog-post{
+  width: 80%;
+  border-radius: 24px;
+}
+
+.blog-post{
+  margin: 6px;
+}
+
+.text-post{
+  background-color: red;
+  width: 71%;
+  border-radius: 24px;
+  padding: 5px;
+  color: white;
+  margin-top: -30%;
+
+}
+
+.text-blog-title{
+  font-size: 10px;
+  text-align: center;
+
+}
+.text-blog-post{
+  text-align: center;
+  font-size: 7px;
+}
+
 
 footer{
   display: flex;
@@ -195,9 +233,7 @@ footer{
   text-align: center;
 }
 
-.tik-tok{
-  margin-left: -16px;
-}
+
 
 .icono-footer{
   margin-right: 3px;
@@ -234,6 +270,16 @@ footer{
 
 @media (min-width: 361px){
 
+  
+.capitulo-video{
+  border-radius: 14px;
+  box-shadow: 7px 8px 8px -1px rgb(0 0 0 / 39%);
+  width: 100px;
+  height: 56px;
+  border-radius: 14px;
+}
+
+
 }
 
 @media (min-width: 769px){
@@ -265,17 +311,16 @@ footer{
   
   }
   .logo-header {
-    width: 12%;
+    width: 30%;
     padding: 2px;
-    padding-left: 15%;
+    padding-left: 25%;
   
   }
   
   .lower-header {
     display: flex;
     align-items: center;
-    padding-right: 40%;
-    margin-left: -72%;
+
   
   }
   
@@ -283,7 +328,7 @@ footer{
     text-decoration: none;
     color: white;
     margin: 0px 10px;
-    font-size: 10px;
+    font-size:  13px;
    } 
   
    .top-text-image{
@@ -300,7 +345,7 @@ footer{
    .button-new-top{
     border: none;
     font-size: 12px;
-    margin-left: 130px;
+    margin-left: 35%;
     padding: 12px;
     border-radius: 21px;
     background-color: #2165BF;
@@ -374,7 +419,7 @@ footer{
     font-weight: bold;
     margin-left: 19px;
     margin-top: 40px;
-}
+
   }
   
   .capitulos {
@@ -460,6 +505,8 @@ footer{
     width: 50%;
   }
 
+}
+
 @media (min-width:1200px){
 
   html {
@@ -485,25 +532,23 @@ footer{
   
   }
   .logo-header {
-    width: 12%;
+    width: 30%;
     padding: 2px;
-    padding-left: 8%;
+    padding-left: 45%;
   
   }
   
   .lower-header {
     display: flex;
     align-items: center;
-    padding-right: 54%;
-    margin-left: -53%;
-  
+
   }
   
   .twitch-header, .youtube-header, .podcast-header, .blog-header {
     text-decoration: none;
     color: white;
     margin: 0px 10px;
-    font-size: 16px;
+    font-size: 18px;
    } 
   
    .top-text-image{
@@ -682,4 +727,3 @@ footer{
 
 
 }
-  
